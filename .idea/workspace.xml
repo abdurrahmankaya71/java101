@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b308329-08c8-4cee-9fe7-6d29c2117a1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Variables/BMI.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Variables/Greengrocer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Variables/SectorArea.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControlFlow/Calculator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,13 +34,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.VAT">
+}</component>
+  <component name="RunManager" selected="Application.Calculator">
     <configuration name="BMI" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Variables.BMI" />
       <module name="Java101" />
@@ -56,12 +54,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Greengrocer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Variables.Greengrocer" />
+    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ControlFlow.Calculator" />
       <module name="Java101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Variables.*" />
+          <option name="PATTERN" value="ControlFlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,8 +67,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SectorArea" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Variables.SectorArea" />
+    <configuration name="Greengrocer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Variables.Greengrocer" />
       <module name="Java101" />
       <extension name="coverage">
         <pattern>
@@ -110,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculator" />
         <item itemvalue="Application.VAT" />
         <item itemvalue="Application.Greengrocer" />
         <item itemvalue="Application.test" />
         <item itemvalue="Application.BMI" />
-        <item itemvalue="Application.SectorArea" />
       </list>
     </recent_temporary>
   </component>
