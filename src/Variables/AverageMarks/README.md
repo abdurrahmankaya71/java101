@@ -1,0 +1,1 @@
+<h1>This code calc average marks for students</h1>

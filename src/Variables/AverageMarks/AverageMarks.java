@@ -1,4 +1,4 @@
-package Variables;
+package Variables.AverageMarks;
 
 import java.util.Scanner;
 
