@@ -12,26 +12,24 @@ public class Calculator {
         num2 = scanner.nextInt();
         System.out.println("Chose an operator: + , - , / , * ");
         operator = scanner.next().charAt(0);
-        switch(operator) {
-            case '+':
+        switch (operator) {
+            case '+' -> {
                 resault = num1 + num2;
-                System.out.println(num1+" + "+num2+" = "+resault);
-                break;
-            case '-':
+                System.out.println(num1 + " + " + num2 + " = " + resault);
+            }
+            case '-' -> {
                 resault = num1 - num2;
-                System.out.println(num1+" - "+num2+" = "+resault);
-                break;
-            case '/':
+                System.out.println(num1 + " - " + num2 + " = " + resault);
+            }
+            case '/' -> {
                 resault = num1 / num2;
-                System.out.println(num1+" / "+num2+" = "+resault);
-                break;
-            case '*':
+                System.out.println(num1 + " / " + num2 + " = " + resault);
+            }
+            case '*' -> {
                 resault = num1 * num2;
-                System.out.println(num1+" * "+num2+" = "+resault);
-                break;
-            default:
-                System.out.println("Invalid operator!");
-                break;
+                System.out.println(num1 + " * " + num2 + " = " + resault);
+            }
+            default -> System.out.println("Invalid operator!");
         }
     }
 }

@@ -10,15 +10,12 @@ public class VAT {
         input = scan.nextDouble();
         if(input<=1000 && input>=0){
             vat_amount = 0.18;
-            vat_price = input + input * vat_amount;
-            System.out.println("VAT amount: "+vat_amount);
-            System.out.println("Total price with VAT: "+vat_price);
         }
         else{
             vat_amount = 0.8;
-            vat_price = input + input * vat_amount;
-            System.out.println("VAT amount: "+vat_amount);
-            System.out.println("Total price with VAT: "+vat_price);
         }
+        vat_price = input + input * vat_amount;
+        System.out.println("VAT amount: "+vat_amount);
+        System.out.println("Total price with VAT: "+vat_price);
     }
 }
