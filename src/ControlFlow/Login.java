@@ -7,27 +7,28 @@ public class Login {
         String userName, password;
         char option;
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter user name: ");
+        System.out.print("Enter username: ");
         userName = scanner.nextLine();
         System.out.print("Enter password: ");
         password = scanner.nextLine();
+
+        // Check if the username and password match the predefined values
         if (userName.equals("patika") && password.equals("patika1234")) {
-            System.out.println("User successfully");
-        } else if (!userName.equals("patika") && password.equals("patika1234")){
-            System.out.println("User name is invalid, try again");
-        }
-        else {
-            System.out.println("Password is invalid, if you need to refactor password, click y, else clisk anything");
+            System.out.println("User login successful");
+        } else if (!userName.equals("patika") && password.equals("patika1234")) {
+            System.out.println("Invalid username, please try again");
+        } else {
+            System.out.println("Invalid password. If you want to reset your password, press 'y" +
+                    ". Otherwise, press any key.");
             option = scanner.next().charAt(0);
             String newPassword;
-            if (option == 'y'){
+            if (option == 'y') {
                 System.out.print("Enter a new password: ");
                 newPassword = scanner.next();
-                if(newPassword.equals("patika1234")){
+                if (newPassword.equals("patika1234")) {
                     System.out.println("Invalid password, please try again");
-                }
-                else {
-                    System.out.println("Congrats!, your new passowrd is: "+newPassword);
+                } else {
+                    System.out.println("Congratulations! Your new password is: " + newPassword);
                 }
             }
         }

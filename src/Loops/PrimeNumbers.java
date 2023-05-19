@@ -1,17 +1,17 @@
 package Loops;
 
-public class AsalSayilar {
+public class PrimeNumbers {
     public static void main(String[] args) {
-        for(int sayi = 2; sayi <= 100; sayi++) {
-            int kontrol = 0;
-            for (int i = 2; i < sayi; i++) {
-                if (sayi % i == 0) {
-                    kontrol = 1;
+        for (int number = 2; number <= 100; number++) {
+            int control = 0;
+            for (int i = 2; i < number; i++) {
+                if (number % i == 0) {
+                    control = 1;
                     break;
                 }
             }
-            if (kontrol == 0) {
-                System.out.println(sayi);
+            if (control == 0) {
+                System.out.println(number);
             }
         }
     }

@@ -64,5 +64,25 @@ public class FlightTicket {
                 System.out.println("Age discount: " + ageDiscount);
                 totalFare = (regularPrice - ageDiscount) * 2;
                 System.out.println("Total fare: " + totalFare);
-                
+            } else if (age <= 24) {
+                // Age discount for young adults (between 12 and 24)
+                System.out.println("Regular price: " + regularPrice);
+                ageDiscount = regularPrice * 0.10;
+                System.out.println("Age discount: " + ageDiscount);
+                totalFare = (regularPrice - ageDiscount) * 2;
+                System.out.println("Total fare: " + totalFare);
+            } else if (age > 65) {
+                // Age discount for senior citizens (above 65)
+                System.out.println("Regular price: " + regularPrice);
+                ageDiscount = regularPrice * 0.30;
+                System.out.println("Age discount: " + ageDiscount);
+                totalFare = (regularPrice - ageDiscount) * 2;
+                System.out.println("Total fare: " + totalFare);
+            } else {
+                // One-way ticket price
+                System.out.println("Your ticket fare = " + regularPrice);
+            }
+        }
+    }
+}
 

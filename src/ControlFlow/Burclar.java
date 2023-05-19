@@ -1,21 +1,21 @@
 package ControlFlow;
 
 import java.util.Scanner;
-public class Burcler {
+public class Burclar {
     public static void main(String[] args) {
 
         int dogumAy, dogumGun;
         String burc="";
         boolean isGecersizGun= false;
 
-        Scanner burcHesabı= new Scanner(System.in);
+        Scanner burcHesabi = new Scanner(System.in);
         System.out.println("Doğduğunuz ayı giriniz: ");
-        dogumAy=burcHesabı.nextInt();
+        dogumAy= burcHesabi.nextInt();
         System.out.println("Doğduğunuz günü giriniz: ");
-        dogumGun=burcHesabı.nextInt();
+        dogumGun = burcHesabi.nextInt();
 
-        if(1<=dogumAy && dogumAy<=12) {
-            if(dogumAy==1) {
+        if (1<=dogumAy && dogumAy<=12) {
+            if (dogumAy==1) {
                 if (1 <= dogumGun && dogumGun <= 31) {
                     if (dogumGun <= 21) {
                         burc = "Oğlak";
@@ -24,10 +24,10 @@ public class Burcler {
                     }
                 }
                 else{
-                    isGecersizGun=true;
+                    isGecersizGun = true;
                 }
             }
-            else if(dogumAy==2) {
+            else if (dogumAy==2) {
                 if (1 <= dogumGun && dogumGun <= 28) {
                     if (dogumGun <= 19) {
                         burc = "Kova";
@@ -36,10 +36,10 @@ public class Burcler {
                     }
                 }
                 else{
-                    isGecersizGun=true;
+                    isGecersizGun = true;
                 }
             }
-            else if(dogumAy==3) {
+            else if (dogumAy==3) {
                 if (1 <= dogumGun && dogumGun <= 31) {
                     if (dogumGun <= 20) {
                         burc = "Balık";
@@ -47,11 +47,11 @@ public class Burcler {
                         burc = "Koç";
                     }
                 }
-                else{
-                    isGecersizGun=true;
+                else {
+                    isGecersizGun = true;
                 }
             }
-            else if(dogumAy==4) {
+            else if (dogumAy==4) {
                 if (1 <= dogumGun && dogumGun <= 30) {
                     if (dogumGun <= 20) {
                         burc = "Koç";
@@ -59,11 +59,11 @@ public class Burcler {
                         burc = "Boğa";
                     }
                 }
-                else{
+                else {
                     isGecersizGun=true;
                 }
             }
-            else if(dogumAy==5) {
+            else if (dogumAy==5) {
                 if (1 <= dogumGun && dogumGun <= 31) {
                     if (dogumGun <= 20) {
                         burc = "Boğa";
@@ -71,11 +71,11 @@ public class Burcler {
                         burc = "İkizler";
                     }
                 }
-                else{
-                    isGecersizGun=true;
+                else {
+                    isGecersizGun = true;
                 }
             }
-            else if(dogumAy==6) {
+            else if (dogumAy==6) {
                 if (1 <= dogumGun && dogumGun <= 31) {
                     if (dogumGun <= 22) {
                         burc = "İkizler";
@@ -84,7 +84,7 @@ public class Burcler {
                     }
                 }
                 else{
-                    isGecersizGun=true;
+                    isGecersizGun = true;
                 }
             }
             else if(dogumAy==7) {
@@ -119,11 +119,11 @@ public class Burcler {
                         burc = "Terazi";
                     }
                 }
-                else{
+                else {
                     isGecersizGun=true;
                 }
             }
-            else if(dogumAy==10) {
+            else if (dogumAy==10) {
                 if (1 <= dogumGun && dogumGun <= 31) {
                     if (dogumGun <= 21) {
                         burc = "Terazi";
@@ -131,11 +131,11 @@ public class Burcler {
                         burc = "Akrep";
                     }
                 }
-                else{
+                else {
                     isGecersizGun=true;
                 }
             }
-            else if(dogumAy==11) {
+            else if (dogumAy==11) {
                 if (1 <= dogumGun && dogumGun <= 31) {
                     if (dogumGun <= 21) {
                         burc = "Akrep";
@@ -143,7 +143,7 @@ public class Burcler {
                         burc = "Yay";
                     }
                 }
-                else{
+                else {
                     isGecersizGun=true;
                 }
             }
@@ -154,8 +154,8 @@ public class Burcler {
                     } else {
                         burc = "Oğlak";
                     }
-                }else{
-                    isGecersizGun=true;
+                } else {
+                    isGecersizGun = true;
                 }
             }
 
@@ -164,10 +164,10 @@ public class Burcler {
             System.out.println("Geçerli bir ay giriniz..");
         }
 
-        if(isGecersizGun==true){
+        if (isGecersizGun){
             System.out.println("Geçerli bir gün giriniz..");
         }
-        else{
+        else {
             System.out.println("Burcunuz: "+burc);
         }
     }

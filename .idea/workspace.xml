@@ -5,10 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b308329-08c8-4cee-9fe7-6d29c2117a1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ControlFlow/TestFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControlFlow/Burclar.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControlFlow/CinZoydagi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControlFlow/FindMinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControlFlow/FlightTicket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ControlFlow/LeapYear.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Loops/Fibonacci.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Loops/FindMinMax.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Loops/InvertedTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Loops/MukemmelSayi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Loops/PrimeNumbers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variables/AverageMarks/AverageMarks.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variables/AverageMarks/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ControlFlow/GecmeNotu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ControlFlow/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ControlFlow/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ControlFlow/TestFile.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,24 +46,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="Variables" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Test">
-    <configuration name="Calculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ControlFlow.Calculator" />
+  <component name="RunManager" selected="Application.PerfectNumber">
+    <configuration name="Fibonacci" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.Fibonacci" />
       <module name="Java101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ControlFlow.*" />
+          <option name="PATTERN" value="Loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -61,12 +72,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Greengrocer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Variables.Greengrocer" />
+    <configuration name="InvertedTriangle" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.InvertedTriangle" />
       <module name="Java101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Variables.AverageMarks.*" />
+          <option name="PATTERN" value="Loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeapYear" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ControlFlow.LeapYear" />
+      <module name="Java101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ControlFlow.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -87,19 +111,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Test" />
-      <module name="Java101" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="VAT" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Variables.VAT" />
+    <configuration name="PerfectNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Loops.PerfectNumber" />
       <module name="Java101" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Variables.AverageMarks.*" />
+          <option name="PATTERN" value="Loops.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,11 +126,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Test" />
-        <item itemvalue="Application.VAT" />
+        <item itemvalue="Application.PerfectNumber" />
         <item itemvalue="Application.Login" />
-        <item itemvalue="Application.Calculator" />
-        <item itemvalue="Application.Greengrocer" />
+        <item itemvalue="Application.LeapYear" />
+        <item itemvalue="Application.Fibonacci" />
+        <item itemvalue="Application.InvertedTriangle" />
       </list>
     </recent_temporary>
   </component>
@@ -128,15 +145,8 @@
     </task>
     <servers />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/ControlFlow/GecmeNotu.java</url>
-          <line>3</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
