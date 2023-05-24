@@ -5,12 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b308329-08c8-4cee-9fe7-6d29c2117a1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Methods/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methods/Palindrome.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methods/RecursiveFibonacci.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methods/RecursivePattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methods/RecursivePower.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Methods/RecursivePrime.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
