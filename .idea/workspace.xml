@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8b308329-08c8-4cee-9fe7-6d29c2117a1c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/CodeWars/Prime.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeWars/Calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CodeWars/Century.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,9 +47,9 @@
       <recent name="Variables" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.PrimeNumbers">
-    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ControlFlow.Kata" />
+  <component name="RunManager" selected="Application.Calculate">
+    <configuration name="Calculate" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.Calculate" />
       <module name="Java101" />
       <extension name="coverage">
         <pattern>
@@ -60,9 +61,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Methods (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Methods" />
+    <configuration name="Century" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CodeWars.Century" />
       <module name="Java101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Kata" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ControlFlow.Kata" />
+      <module name="Java101" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="CodeWars.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -93,26 +113,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RecursivePattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Methods.RecursivePattern" />
-      <module name="Java101" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Methods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Calculate" />
+        <item itemvalue="Application.Century" />
         <item itemvalue="Application.PrimeNumbers" />
         <item itemvalue="Application.Prime" />
         <item itemvalue="Application.Kata" />
-        <item itemvalue="Application.RecursivePattern" />
-        <item itemvalue="Application.Methods (1)" />
       </list>
     </recent_temporary>
   </component>
